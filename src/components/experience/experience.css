@@ -1,8 +1,15 @@
 .experiencie__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
+
+.experiencie__content {
+    width: 70%;
+}
+
+
 
 .experiencie__container >div {
     background: var(--color-bg-variant);
@@ -30,9 +37,10 @@
     row-gap: 2rem;
 }
 
-.experiencie_details {
+.experiencie__details {
     display: flex;
     gap: 1rem;
+    height: auto;
 }
 
 .experiencie_details-icon {
